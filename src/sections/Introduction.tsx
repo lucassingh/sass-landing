@@ -46,7 +46,7 @@ export default function Introduction() {
                                 ))
                             }
                         </span>
-                        <span className="text-lime-400 block">That's why we built Layers</span>
+                        <span className="text-lime-400 block">That&apos;s why we built Layers</span>
                     </div>
                 </div>
                 <div ref={scrollTarget} className="h-[150vh]"></div>

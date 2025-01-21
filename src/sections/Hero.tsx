@@ -43,7 +43,7 @@ export default function Hero() {
             [rightPointerScope.current, { x: 0, y: [0, 20, 0] }, { duration: 0.5, ease: 'easeIn' }]
         ])
 
-    }, [])
+    })
 
 
     return (

@@ -17,7 +17,7 @@ export default function CallToAction() {
             { x: "-50%" },
             { duration: 20, ease: 'linear', repeat: Infinity }
         );
-    }, []);
+    });
 
     useEffect(() => {
         if (animation.current) {

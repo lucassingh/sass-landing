@@ -98,7 +98,7 @@ export default function Navbar() {
                                         <div className='flex flex-col items-center gap-4 py-4'>
                                             {
                                                 navLinks.map(link => (
-                                                    <a className='py-2' href={link.href}>{link.label}</a>
+                                                    <a key={link.label} className='py-2' href={link.href}>{link.label}</a>
                                                 ))
                                             }
 
